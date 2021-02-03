@@ -174,19 +174,19 @@ git clone https://github.com/patronical/disaster_pipeline.git
 ### Run Code:
 1. The Process Data section:
     - Open a terminal and navigate to the code folder
-	  Run this command:
+	  Run this command:  
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/disaster_response.db`
 		
 
 2. The Train Classifier section:
      - Open a terminal and navigate to the code folder
-	   Run this command:
+	   Run this command:  
         `python models/train_classifier.py data/disaster_response_db.db models/classifier.pkl`
 
 
 3. The Web App section:
      - Open a terminal and navigate to the app directory.
-       Launch via the following command:
+       Launch via the following command:  
        python run.py
 
        If this is a local build,

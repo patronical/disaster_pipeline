@@ -125,26 +125,26 @@ to install the program modules for this project,
 warning - it can take hours.
 
 command line environment installation step examples:
-conda update -n base -c defaults conda
-conda install -c anaconda numpy
-conda install -c anaconda pandas
-conda install -c conda-forge matplotlib
-conda install -c conda-forge imbalanced-learn
-conda install -c anaconda sqlite
-conda install -c anaconda sqlalchemy
-conda install -c anaconda dill
-conda install -c anaconda scipy
-conda install -c anaconda seaborn
-conda install -c anaconda scikit-learn
-conda install -c anaconda pillow
-conda install -c anaconda pip
-conda install -c anaconda flask
-conda install -c plotly plotly
-conda install -c anaconda nltk
-conda install -c conda-forge nltk_data
-conda install -c anaconda notebook
-conda update --all
-pip install -U imbalanced-learn
+conda update -n base -c defaults conda  
+conda install -c anaconda numpy  
+conda install -c anaconda pandas  
+conda install -c conda-forge matplotlib  
+conda install -c conda-forge imbalanced-learn  
+conda install -c anaconda sqlite  
+conda install -c anaconda sqlalchemy  
+conda install -c anaconda dill  
+conda install -c anaconda scipy  
+conda install -c anaconda seaborn  
+conda install -c anaconda scikit-learn  
+conda install -c anaconda pillow  
+conda install -c anaconda pip  
+conda install -c anaconda flask  
+conda install -c plotly plotly  
+conda install -c anaconda nltk  
+conda install -c conda-forge nltk_data  
+conda install -c anaconda notebook  
+conda update --all  
+pip install -U imbalanced-learn  
 
 
 For running this in the Udacity online Workspace (Feb'2021):
@@ -203,36 +203,36 @@ git clone https://github.com/patronical/disaster_pipeline.git
 <a name="notebooks"></a>
 ### Notebooks
 
-Within **data** and **models** folders are jupyter notebooks used for development.
-1. **ETL Pipeline Preparation**: early development of the process data section.
-2. **augment_message**: simulation of messages for oversampling purposes.
-3. **peter_norvig_spelling**: development of spell check interfacing.
-4. **spell_check**: development of frequency and lookup dictionarys.
-5. **test_etl**: block by block executions of the process data script.
-6. **ML Pipeline Preparation Notebook**: early development of the train classifier section.
-7. **test_mlp**: block by block execution of the train classifier section.
-8. **test_frontend**: takes a trained model and runs message samples of various types.
+Within **data** and **models** folders are jupyter notebooks used for development.  
+1. **ETL Pipeline Preparation**: early development of the process data section.  
+2. **augment_message**: simulation of messages for oversampling purposes.  
+3. **peter_norvig_spelling**: development of spell check interfacing.  
+4. **spell_check**: development of frequency and lookup dictionarys.  
+5. **test_etl**: block by block executions of the process data script.  
+6. **ML Pipeline Preparation Notebook**: early development of the train classifier section.  
+7. **test_mlp**: block by block execution of the train classifier section.  
+8. **test_frontend**: takes a trained model and runs message samples of various types.  
 
 <a name="files"></a>
 ### Files
 
-**app/templates/***: templates/html files for web app.
-**data/process_data.py**: process data code.
-**models/train_classifier.py**: train classifier code.
-**run.py**: web app code.
-**peter_norvig_spelling.py**: Peter Norvig's spelling utilities.
-**spellhelper.py**: class that manages frequency dictionary intefaced to Peter Norvig's spelling code.
-**spellbuilder.py**: custom frequency dictionary and string to string lookup dictionary build code.
-**cleaner.py**: code for message cleaning including spelling corrections.
-**augmenter.py**: code for oversampling messages via augmentation or simulation.
-**build_visuals.py**: code for building visuals from train data.
-**lookup_dict.pkl**: string to string spell correction dictionary.
-**freq_dict.txt**: custom disaster tuned frequency dictionary for spell corrections.
-**frequency_dictionary_en_82_765.txt**: standard English frequency dictionary.
-**messages.csv**: raw data.
-**categories.csv**: raw data.
-**train_disaster.png**: visualizations image file.
-**DisasterResponse.db**: cleaned database.
+**app/templates/***: templates/html files for web app.  
+**data/process_data.py**: process data code.  
+**models/train_classifier.py**: train classifier code.  
+**run.py**: web app code.  
+**peter_norvig_spelling.py**: Peter Norvig's spelling utilities.  
+**spellhelper.py**: class that manages frequency dictionary intefaced to Peter Norvig's spelling code.  
+**spellbuilder.py**: custom frequency dictionary and string to string lookup dictionary build code.  
+**cleaner.py**: code for message cleaning including spelling corrections.  
+**augmenter.py**: code for oversampling messages via augmentation or simulation.  
+**build_visuals.py**: code for building visuals from train data.  
+**lookup_dict.pkl**: string to string spell correction dictionary.  
+**freq_dict.txt**: custom disaster tuned frequency dictionary for spell corrections.  
+**frequency_dictionary_en_82_765.txt**: standard English frequency dictionary.  
+**messages.csv**: raw data.  
+**categories.csv**: raw data.  
+**train_disaster.png**: visualizations image file.  
+**DisasterResponse.db**: cleaned database.  
 
 <a name="authors"></a>
 ## Authors
@@ -246,10 +246,10 @@ Within **data** and **models** folders are jupyter notebooks used for developmen
 <a name="acknowledgement"></a>
 ## Acknowledgements
 
-* [Udacity](https://www.udacity.com/) Data Science Nanodegree Program.
-* [Figure Eight](https://www.figure-eight.com/) Disaster Response Data Set.
-* [Peter Norvig](https://www.peternorvig.com/) Spell Correction Code.
-* [SymSpell](https://github.com/wolfgarbe/SymSpell/) English Frequency Dictionary.
+* [Udacity](https://www.udacity.com/) Data Science Nanodegree Program.  
+* [Figure Eight](https://www.figure-eight.com/) Disaster Response Data Set.  
+* [Peter Norvig](https://www.peternorvig.com/) Spell Correction Code.  
+* [SymSpell](https://github.com/wolfgarbe/SymSpell/) English Frequency Dictionary.  
 
 <a name="results"></a>
 ## Results

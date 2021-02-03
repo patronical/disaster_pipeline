@@ -124,8 +124,8 @@ Once anaconda is set up, there's some command line steps used
 to install the program modules for this project, 
 warning - it can take hours.
 
-command line environment installation step examples:
-conda update -n base -c defaults conda  
+command line environment installation step examples:  
+conda update -n base -c defaults conda    
 conda install -c anaconda numpy  
 conda install -c anaconda pandas  
 conda install -c conda-forge matplotlib  
@@ -248,7 +248,7 @@ Within **data** and **models** folders are jupyter notebooks used for developmen
 
 * [Udacity](https://www.udacity.com/) Data Science Nanodegree Program.  
 * [Figure Eight](https://www.figure-eight.com/) Disaster Response Data Set.  
-* [Peter Norvig](https://www.peternorvig.com/) Spell Correction Code.  
+* [Peter Norvig](https://www.norvig.com/) Spell Correction Code.  
 * [SymSpell](https://github.com/wolfgarbe/SymSpell/) English Frequency Dictionary.  
 
 <a name="results"></a>

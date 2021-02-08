@@ -181,7 +181,7 @@ git clone https://github.com/patronical/disaster_pipeline.git
 2. The Train Classifier section:
      - Open a terminal and navigate to the code folder
 	   Run this command:  
-        `python models/train_classifier.py data/disaster_response_db.db models/classifier.pkl`
+        `python models/train_classifier.py data/disaster_response.db models/classifier.pkl`
 
 
 3. The Web App section:

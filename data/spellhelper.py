@@ -18,7 +18,7 @@ class Spellhelper:
     '''
     import peter_norvig_spelling as pns
 
-    def __init__(self, filename = 'frequency_dictionary_en_82_765.txt'):
+    def __init__(self, filename = 'data/frequency_dictionary_en_82_765.txt'):
         '''
         initialize counter by loading frequency dictionary file
         '''

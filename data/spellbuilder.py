@@ -362,8 +362,8 @@ def BuildFiles(df):
     print('Final Vocab Count:', len(C_splits))
 
     # filename specification
-    fd_file = 'freq_dict.txt'
-    lu_file = 'lookup_dict.pkl'
+    fd_file = 'data/freq_dict.txt'
+    lu_file = 'data/lookup_dict.pkl'
 
     # save frequency dictionary
     speller.savefreqdict(fd_file)

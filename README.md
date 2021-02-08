@@ -190,7 +190,8 @@ git clone https://github.com/patronical/disaster_pipeline.git
        `python run.py`
 
        If this is a local build,
-       Open a web browser and copy http://0.0.0.0:3001/ into the address bar.
+       For linux, open a web browser and copy http://0.0.0.0:3001/ into the address bar.
+       For windows, open a web browser and copy http://localhost:3001/ into the address bar.
 
        Alternately, if this is being launced from the Udacity workspace,
        retrieve WORKSPACEID and WORKSPACEDOMAIN from a terminal beforehand:
@@ -198,8 +199,13 @@ git clone https://github.com/patronical/disaster_pipeline.git
        python run.py
    
        Open a web browser and copy/paste: https://WORKSPACEID-3001.WORKSPACEDOMAIN
-	   
-
+     
+     - Review visualizations,  
+       enter message into text box at top,   
+       click "Classify Message" button underneath,  
+       review classification results.
+      
+      
 <a name="notebooks"></a>
 ### Notebooks
 

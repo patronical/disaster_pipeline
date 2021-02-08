@@ -187,7 +187,7 @@ git clone https://github.com/patronical/disaster_pipeline.git
 3. The Web App section:
      - Open a terminal and navigate to the app directory.
        Launch via the following command:  
-       python run.py
+       `python run.py`
 
        If this is a local build,
        Open a web browser and copy http://0.0.0.0:3001/ into the address bar.
